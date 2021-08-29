@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?attr/top_navigation_color"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:background="?attr/top_navigation_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_back"
+        android:onClick="ClickBack"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#fdfaf6"
+        android:gravity="left"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="NovelGram"
+        android:layout_marginTop="1dp"
+        android:letterSpacing="0.1"
+        android:fontFamily="@font/happy_monkey"/>
+
+
+
+
+
+
+</LinearLayout>

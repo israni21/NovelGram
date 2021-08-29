@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:background="#fdfaf6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="48dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#865439"
+            android:id="@+id/literary_fiction"
+            android:background="@drawable/shape1"
+            android:padding="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Literary Fiction"
+            android:fontFamily="@font/handlee"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <Button
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#865439"
+            android:id="@+id/thriller_mystery"
+            android:background="@drawable/shape2"
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Thriller / Mystery"
+            android:fontFamily="@font/handlee"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <Button
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#865439"
+            android:id="@+id/horror"
+            android:background="@drawable/shape1"
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Horror"
+            android:fontFamily="@font/handlee"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <Button
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#865439"
+            android:id="@+id/historical"
+            android:background="@drawable/shape2"
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Historical"
+            android:fontFamily="@font/handlee"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <Button
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#865439"
+            android:id="@+id/romance"
+            android:background="@drawable/shape1"
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Romance"
+            android:fontFamily="@font/handlee"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <Button
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#865439"
+            android:id="@+id/science_fiction"
+            android:background="@drawable/shape2"
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Science Fiction"
+            android:fontFamily="@font/handlee"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+</LinearLayout>

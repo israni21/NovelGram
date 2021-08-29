@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:background="#fdfaf6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/menu_top_navigation"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#E6055052"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="LITERARY FICTION"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/montaga"/>
+
+
+
+    <ImageButton
+        android:id="@+id/book21"
+        android:background="@drawable/image_21"
+        android:layout_width="168dp"
+        android:layout_height="275dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginBottom="20dp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageButton
+        android:id="@+id/book22"
+        android:background="@drawable/image_22"
+        android:layout_width="175dp"
+        android:layout_height="275dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginRight="20dp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+    <ImageButton
+        android:id="@+id/book23"
+        android:background="@drawable/image_23"
+        android:layout_width="168dp"
+        android:layout_height="275dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginBottom="20dp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageButton
+        android:id="@+id/book24"
+        android:background="@drawable/image_24"
+        android:layout_width="175dp"
+        android:layout_height="275dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageButton
+        android:id="@+id/app"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="5dp"
+        android:onClick="ClickLogOut"
+        android:background="@drawable/novel_gram_logo"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+</RelativeLayout>

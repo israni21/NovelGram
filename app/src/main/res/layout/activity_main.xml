@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFAF6"
+    tools:context=".MainActivity">
+
+
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/montaga"
+                android:text="NEW RELEASES"
+                android:textSize="30sp"
+                android:textColor="#E6055052"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/book1"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_1"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book2"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_2"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book3"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_3"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book4"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_4"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/montaga"
+                android:text="POPULAR BOOKS"
+                android:textSize="30sp"
+                android:textColor="#E6055052"/>
+
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/book5"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_5"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book6"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_6"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book7"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_7"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book8"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_8"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/montaga"
+                android:text="TRENDING"
+                android:textSize="30sp"
+                android:textColor="#E6055052"/>
+
+
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/book9"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_9"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book10"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_10"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book11"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_11"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book12"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_12"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/montaga"
+                android:text="INDIAN AUTHORS"
+                android:textSize="30sp"
+                android:textColor="#E6055052"/>
+
+
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/book13"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_13"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book14"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_14"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book15"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_15"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book16"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_16"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/montaga"
+                android:text="FOREIGN AUTHORS"
+                android:textSize="30sp"
+                android:textColor="#E6055052"/>
+
+
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/book17"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_17"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book18"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_18"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book19"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_19"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <ImageButton
+                        android:id="@+id/book20"
+                        android:layout_width="175dp"
+                        android:layout_height="250dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/image_20"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Button
+                android:id="@+id/more_books"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="More Books"
+                android:background="@drawable/shape2"
+                android:textColor="#865439"
+                android:textSize="14dp"
+                android:fontFamily="@font/handlee"
+                android:textStyle="bold"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        android:background="?attr/bottom_navigation_color"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="?attr/top_navigation_color"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#fdfaf6"
+            android:gravity="left"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:text="NovelGram"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:letterSpacing="0.1"
+            android:fontFamily="@font/happy_monkey"/>
+
+
+    </LinearLayout>
+
+
+
+    <ImageButton
+        android:id="@+id/app"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="5dp"
+        android:onClick="ClickLogOut"
+        android:background="@drawable/novel_gram_logo"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</RelativeLayout>

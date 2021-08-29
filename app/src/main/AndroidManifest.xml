@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidcoding.novelgram">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MainTheme">
+        <activity android:name=".Book18"></activity>
+        <activity android:name=".Book7" />
+        <activity android:name=".Search" />
+        <activity android:name=".MyBooks" />
+        <activity android:name=".Literary_Fiction" />
+        <activity android:name=".Thriller_Mystery" />
+        <activity android:name=".Horror" />
+        <activity android:name=".Historical" />
+        <activity android:name=".Romance" />
+        <activity android:name=".Science_Fiction" />
+        <activity android:name=".Book22" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
